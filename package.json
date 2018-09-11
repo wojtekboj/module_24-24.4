@@ -1,12 +1,23 @@
 {
   "name": "24.4",
   "version": "1.0.0",
-  "description": "",
+  "description": "\"Zadanie 24.4\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha index.test.js",
+    "test:watch": "mocha -w -b index.test.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wojtekboj/module_24-24.4.git"
+  },
+  "author": "Wojciech Bojarczuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wojtekboj/module_24-24.4/issues"
+  },
+  "homepage": "https://github.com/wojtekboj/module_24-24.4#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
 }
